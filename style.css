@@ -1,0 +1,182 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=mont);
+
+body{
+font-family: verdana;
+background-color: #000047;
+color: #ffffff;
+
+}
+
+
+
+.menu{
+ display: flex;
+ align-items: center;
+ padding: 20px 35px;
+ color: #000047;
+ background-color: aqua;
+ width: 95%;
+ border-radius: 10px;
+}
+
+.logo_menu {
+    margin-left: auto;
+    display: flex;
+    gap: 20px; 
+    
+}
+
+.logo1{
+    transition: transform 0.2s ease;
+}
+.logo1:hover{
+    transform: scale(1.1);
+}
+
+
+.logo2{
+    transition: transform 0.2s ease;
+}
+.logo2:hover{
+    transform: scale(1.1);
+}
+
+
+.perfil {
+    transition: transform 0.3s ease; 
+}
+
+.perfil:hover {
+    transform: scale(1.4);
+}
+
+.links_menu a {
+ display: flex;
+ padding: 20px 30px;
+ color: #000047;
+ text-decoration: none;
+}
+.links_menu a:hover{
+ color: rgb(255, 255, 255);
+ background-color: #000047;
+ transition-property: all;
+ transition-duration: 1s;
+ border-radius: 20px;
+}
+ 
+.links_menu{
+ display: flex;
+ align-items: center;
+}
+
+.ofertas_navidad{
+    color: aqua;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+.cards {
+  display: flex;
+  grid-template-columns: repeat(6, 1fr); 
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+  overflow-x: auto;
+}
+
+.oferta_joc{
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #000080;
+  transition: transform 0.3s ease;
+}
+
+.oferta_joc:hover {
+  transform: scale(1.06);
+}
+
+.info_joc_oferta{
+ border-radius: 20px;
+ background: #000047;
+ text-align: center;
+ padding: 5px;
+ margin-top: 8px;
+}
+
+.titol{
+ font-weight: bold;
+ font-size: 1.2rem;
+ text-decoration: underline;
+}
+
+.imatge_joc { 
+  margin: center;   
+  border-radius: 15px;
+  overflow: hidden;  
+}
+
+
+
+
+.preus{
+ display: flex;
+ justify-content: right;
+ padding-top: 20px;
+ font-size: 0.9rem;
+}
+
+.descompte{
+ color: white;
+ background-color: #c90f0f;
+ border-radius: 10px;
+ padding: 4px 8px;
+ font-size: 1,2rem;
+ text-align: left;
+  width: 30%;
+  text-align: center;
+
+}
+
+.preu_tatxat{
+ margin: center;
+ color: #aaa;
+ text-decoration: line-through;
+ padding: 10px;
+}
+
+.preu_actual{
+ margin-right: 20px;
+ font-weight: bold;
+ padding: 10px;
+}
+.edition{
+ color: #aaa;
+ font-size: 0.9rem;
+ margin-top: 10px;
+
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+}
+
+.sotial-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+    font-size: 2.5em;
+    gap: 50px; 
+}

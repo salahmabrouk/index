@@ -1,0 +1,30 @@
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 3rem;
+  color: aqua;
+  cursor: pointer;
+  user-select: none;
+  padding: 10px;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow{
+  right: 10px;
+}
+
+.carousel {
+  overflow-x: hidden;
+}
+
+.slide {
+  min-width: calc((100% - 60px) / 4);
+  display: flex;
+  justify-content: center;
+}
+
