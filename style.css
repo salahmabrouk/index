@@ -223,3 +223,19 @@ body {
     gap: 25px;
   }
 }
+
+
+
+.card-link {
+  text-decoration: none;   
+  color: inherit;        
+  display: block;
+}
+
+.card-link:visited {
+  color: inherit;        
+}
+
+.card-link:hover {
+  color: inherit;      
+}

@@ -1,0 +1,93 @@
+@import url(https://fonts.google.com/specimen/Montserrat?query=mont);
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: #000080;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+label{ vertical-align:middle; }
+
+fieldset{ border: 0px; }
+#header_banner{
+width: 100% ;
+height: auto;
+}
+
+#imatge_pegi{ 
+    position: absolute; 
+    top: 15px; 
+    left: 15px; 
+     width: 60px;
+  height: auto;
+}
+
+#text_avis {
+position: absolute;
+top: 10px;
+left: 90px;
+}
+#Preu2 {
+position: absolute;
+top: 10px;
+left: 90px;
+}
+#contenidor_pegi{
+position: absolute;
+top:5%;
+left: 75%;
+background:rgba(0, 0, 0, 0.5);
+color: white;
+/* opacity: 0.5;*/
+border-radius: 25px ;
+width: 20%;
+
+height: 120px;
+}
+#contenidorPreu2{
+position: absolute;
+top:5%;
+left: 75%;
+background:rgba(0, 0, 0, 0.5);
+color: white;
+/* opacity: 0.5;*/
+border-radius: 25px ;
+width: 20%;
+height: 120px;
+}
+#contenidor_edicions{
+position: absolute;
+top: 25% ;
+left: 75% ;
+background: rgba(0, 0, 0, 0.5);
+border-radius: 25px;
+width: 20%;
+height: 150px;
+color: white;
+
+}
+input[type="radio"]{
+
+appearance: none;
+
+height: 30px;
+width: 30px;
+
+border: 2px solid #999;
+border-radius: 50%;
+transition: 0.2s all linear;
+
+}
+
+input[type="radio"]:checked{
+
+appearance: none;
+background-color: red;
+
+height: 30px;
+width: 30px;
+
+border: 2px solid #999;
+}
