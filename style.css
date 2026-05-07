@@ -239,3 +239,65 @@ body {
 .card-link:hover {
   color: inherit;      
 }
+
+.contact-headings {
+color: #fff;
+padding: 1em;
+font-size: 1em;
+}
+
+.container-contact {
+    padding: 2em;
+    margin: 0 auto;
+    
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 1em;
+    color: #fff;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-top: 1em;
+}
+
+.form input {
+    padding: 5px 10px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+
+.form textarea {
+    height: 80px;
+    background: none;
+    color: #fff;
+    padding: 1em;
+    border: 1px solid #fff;
+}
+
+.btn-submit {
+    padding: 5px 10px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 2px 4px 12px -5px rgba(102,231,200,0.69);
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    box-shadow: none;
+}
